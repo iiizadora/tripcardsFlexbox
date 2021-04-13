@@ -135,3 +135,50 @@
   font-weight: 600;
   padding-left: 15px;
 }
+
+
+/*Responsivo*/
+
+@media (max-width: 479px) {
+  .menu__nav a {
+    font-size: 0.95rem;
+    margin-left: 20px;
+  }
+  .title__main {
+    text-align: center;
+    margin: 0 20px 0;
+    margin-bottom: 50px;
+  }
+  .places__container {
+    justify-content: center;
+  }
+  .places p {
+    font-size: 0.95rem;
+  }
+  .footer__text {
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu__nav a {
+    font-size: 1.05rem;
+    margin-right: 20px;
+  }
+  .title__main {
+    text-align: center;
+    font-size: 1.85rem;
+    margin: 0 20px 0;
+    margin-bottom: 50px;
+  }
+
+  .places__container {
+    padding: 40px 80px;
+  }
+  .places p {
+    font-size: 0.95rem;
+  }
+  .footer__text {
+    padding-right: 20%;
+  }
+}
